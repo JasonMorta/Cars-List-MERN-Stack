@@ -1,0 +1,13 @@
+
+
+.MuiOutlinedInput-notchedOutline {
+   border-color: #a9a9a9 !important;
+}
+
+.MuiOutlinedInput-root {
+   letter-spacing: 13px !important;
+}
+
+.MuiSelect-select {
+   letter-spacing: normal !important;
+}

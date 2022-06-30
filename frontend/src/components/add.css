@@ -1,0 +1,54 @@
+dialog {
+   padding: 10px;
+   /* display: flex; */
+   flex-direction: column;
+   align-items: center;
+   /* opacity: .87; */
+   position: relative;
+}
+
+
+
+#text-field {
+   display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.list-container {
+   margin: 7px;
+   border: 0px;
+   transition: .5s;
+   border-radius: 5px;
+   padding: 5px;
+   width: fit-content;
+   position: fixed;
+   z-index: 10;
+   opacity: 1;
+   top: 50%;
+   left: 50%;
+   color: wheat;
+   box-shadow: 1px 0px 5px -2px #000000;
+   transform: translate(-50%, -50%);
+   background: linear-gradient(to left, #bababa, #dedede);
+}
+
+.list-container h3 {
+   color: slateblue;
+}
+
+.textField {
+margin: 10px !important;
+}
+
+TextField{
+
+}
+
+.MuiButton-root {
+   margin: 10px!important;
+}
+
+.MuiOutlinedInput-input {
+   letter-spacing: initial !important;
+}

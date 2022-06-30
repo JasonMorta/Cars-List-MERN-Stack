@@ -1,0 +1,27 @@
+.add-icon {
+    bottom: 25px;
+    right: 50%;
+    position: fixed;
+    transform: scale(1.5);
+    z-index: 1;
+    transition: .2s;
+}
+
+.add-icon:hover {
+    transform: scale(1.8);
+    transition: .2s;
+}
+.add-icon:active {
+    transform: scale(1.4);
+    transition: .2s;
+}
+
+
+.menu-container {
+    margin: 20px;
+    max-width: 400px;
+ 
+    position: fixed;
+    top: 0;
+    right: 60px;
+  }
